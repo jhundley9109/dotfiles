@@ -1,0 +1,125 @@
+[global_config]
+  handle_size = 1
+  scroll_tabbar = True
+  suppress_multiple_term_dialog = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 7f2e526e-f115-49b8-aa27-1314768a3680
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:24
+      size = 2560, 1416
+      title = gnome@jacob-gnome: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 293
+      ratio = 0.206920903955
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 1256
+      ratio = 0.490625
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 479
+      ratio = 0.4272970562
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 4e45b5a0-ac2b-471e-9645-ea4bb3840cf5
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = f0f6c6c2-089d-4603-b1b9-82b2f0ad0b1c
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = a9340dd2-f804-49ab-9dab-53ed5c447ca0
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 7f2e526e-f115-49b8-aa27-1314768a3680
+  [[New Layout]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 7f2e526e-f115-49b8-aa27-1314768a3680
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:24
+      size = 2560, 1416
+      title = gnome@jacob-gnome: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 293
+      ratio = 0.206920903955
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 1256
+      ratio = 0.490625
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 479
+      ratio = 0.4272970562
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 4e45b5a0-ac2b-471e-9645-ea4bb3840cf5
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = f0f6c6c2-089d-4603-b1b9-82b2f0ad0b1c
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = a9340dd2-f804-49ab-9dab-53ed5c447ca0
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 7f2e526e-f115-49b8-aa27-1314768a3680
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.86
+    background_type = transparent
+    cursor_color = "#ffffff"
+    font = Monospace 9
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False

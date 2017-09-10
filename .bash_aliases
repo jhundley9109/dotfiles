@@ -1,0 +1,20 @@
+alias ll='ls -laFh'
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade"
+alias sshcg="ssh jacob@dev.customizedgirl.com"
+alias sftpdev_cg="sftp jacob@dev.customizedgirl.com"
+alias lsync="lsyncd /etc/lsyncd/lsyncd.conf.lua"
+alias sshdev_cg2="ssh root@dev2.customizedgirl.com"
+alias sftpdev_cg2="sftp root@dev2.customizedgirl.com"
+alias sshdev_er="ssh jacob@dev.eretailing.com"
+alias sftpdev_er="sftp jacob@dev.eretailing.com"
+alias sshgigi="ssh jacob@dev.bridalpartytees.com"
+alias sftpgigi="sftp root@54.243.230.223"
+alias hosts="sudo vim /etc/hosts"
+alias taill="tail -f /var/log/lsyncd/lsyncd.log"
+alias sshprod_er="ssh jacob@www.eretailing.com"
+alias start_node="cd ~/git/node/ && node-inspector & nodemon ; node-sass -w ./public/sass/ -o ./public/css/ & nodemon ; npm start"
+alias sshpersonal="ssh ubuntu@54.152.185.37";
+alias sftppersonal="sftp ubuntu@54.152.185.37";
+alias tailref="tail -f /var/log/apache2/error.log"
+alias config='/usr/bin/git --git-dir=/home/gnome/.cfg/ --work-tree=/home/gnome'
